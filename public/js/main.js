@@ -32,7 +32,7 @@ require.config({
   deps : ['jquery','underscore']
 });
 
-require(['marionette','backbone','app','routers/index','controllers/index', 'bootstrap' ],function(m, Backbone,app,Router,Controller){
+require(['marionette','backbone','app','routers/index','controller/index', 'bootstrap' ],function(m, Backbone,app,Router,Controller){
   "use strict";
 
   app.start();
